@@ -1,0 +1,138 @@
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+  transition: 0.6s ease;
+
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -92px;
+  padding: 16px;
+  color: blue;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+.prev {
+  left: 0;
+
+}
+
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: blue;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  /* position: absolute; */
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+/* Default styles */
+.slideshow {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Styles for smaller screens */
+@media (max-width: 600px) {
+  .slideshow {
+    position: relative;
+    margin-bottom: 1rem;
+  }
+  .slide {
+    width: 100%;
+  }
+  .prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(100%);
+    /* width: 10%; */
+    /* height: 20%; */
+    padding: 1rem;
+    font-size: 2rem;
+    z-index: 1;
+  }
+  .prev {
+    left: 0;
+  }
+  .next {
+    right: 0;
+  }
+}
+
+.news:hover::after{
+  /* transform: scale(1.1); */
+  transition: 400ms;
+  width: 100%;
+}
+
+.news::after{
+  content:'';
+  display:block;
+  height: 4px;
+  width:0;
+  background:#c4c4f7;
+  transition:all .5
+}
+
+.buldge:hover{
+  transform: scale(1.1);
+  transition: 400ms;
+}
+.dot:hover{
+  transform: scale(1.5);
+  transition: 200ms;
+}
+
+.catagoryColor{
+  color: #bde0fe
+}
