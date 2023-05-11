@@ -1,4 +1,4 @@
-News.blue
+#News.blue
 News.blue is a news app that provides users with the latest news articles in various categories. The theme of the website is blue color, which makes the reading experience more enjoyable and calming. With News.blue, you can stay informed on current events and trending topics from around the world.
 
 Features
