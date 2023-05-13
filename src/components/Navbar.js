@@ -21,7 +21,7 @@ export default class Navbar extends Component {
     return (
       
         <div>
-      <nav className="navbar navbar-expand-lg  py-2" style={{border:'2px solid #03045e', backgroundColor:'#023047', border: "1.5px solid currentcolor" , boxShadow:"0 0 3px currentcolor", color:"#55c2da"}}> 
+      <nav className="navbar navbar-expand-lg navcolor py-2" style={{ border: "1.5px solid currentcolor" , boxShadow:"0 0 3px currentcolor", color:"#55c2da"}}> 
   <a className="navbar-brand news mx-5" href="#" style={{fontFamily:'Roboto',textDecoration:'overline',fontSize:'24px' , color:'white'}} ><strong>News.Blue</strong></a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>

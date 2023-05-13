@@ -136,3 +136,22 @@
 .catagoryColor{
   color: #bde0fe
 }
+
+.navcolor{
+
+  /* ff 3.6+ */
+  background:-moz-radial-gradient(circle at 0% 0%, rgba(27, 0, 255, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 100%, rgba(2, 48, 71, 1) 100%);
+
+  /* safari 5.1+,chrome 10+ */
+  background:-webkit-radial-gradient(circle at 0% 0%, rgba(27, 0, 255, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 100%, rgba(2, 48, 71, 1) 100%);
+
+  /* opera 11.10+ */
+  background:-o-radial-gradient(circle at 0% 0%, rgba(27, 0, 255, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 100%, rgba(2, 48, 71, 1) 100%);
+
+  /* ie 10+ */
+  background:-ms-radial-gradient(circle at 0% 0%, rgba(27, 0, 255, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 100%, rgba(2, 48, 71, 1) 100%);
+
+  /* global 92%+ browsers support */
+  background:radial-gradient(circle at 0% 0%, rgba(27, 0, 255, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(2, 48, 71, 1) 0%, rgba(29, 31, 163, 1) 0%, rgba(2, 48, 71, 1) 100%, rgba(2, 48, 71, 1) 100%);
+
+}
