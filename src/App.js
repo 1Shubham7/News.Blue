@@ -15,6 +15,8 @@ import LoadingBar from 'react-top-loading-bar'
 
 //  API key : 4c8485b319b7402b8d2728b59067d2c2
 
+// New API Key: (shubhamsinghmahar1306) - 75452cefaa72487c8c0cf6b48331a440
+
 
 export default class App extends Component { 
   // state = {
